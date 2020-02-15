@@ -1,0 +1,20 @@
+{
+  "name": "@axe/basic-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "../../../node_modules/.bin/cross-env VUE_CLI_SERVICE_CONFIG_PATH=$PWD/../../../vue.config.js  ../../../node_modules/.bin/vue-cli-service build --target lib  --name basicform  --dest lib ./index.ts",
+    "screenshot": "../../node_modules/.bin/screenshot -l -s '#mountNode'",
+    "prepublishOnly": "npm run build && npm run screenshot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://ued.suanshuabang.com/block#basic-form",
+  "axeConfig": {
+    "name": "basic-form",
+    "category": "表单类",
+    "displayName": "GeneralForm通用性表单"
+  }
+}
