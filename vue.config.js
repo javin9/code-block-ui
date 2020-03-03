@@ -11,7 +11,5 @@ module.exports = {
   chainWebpack: (config) => {
     config.resolve
       .alias.set('blocks', resolve('./src/blocks')).end()
-
-    config.resolveLoader.modules.add(resolve('node_modules')).end()
   }
 }

@@ -1,0 +1,25 @@
+
+{
+  "name": "@axe/funnel-filter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "../../../node_modules/.bin/cross-env VUE_CLI_SERVICE_CONFIG_PATH=$PWD/../../../vue.config.js VUE_CLI_CONTEXT=$PWD/../../../  ../../../node_modules/.bin/vue-cli-service build --target lib  --name funnelfilter  --dest lib ./src/blocks/funnel-filter/index.ts",
+    "screenshot": "../../node_modules/.bin/screenshot -l -s '#mountNode'",
+    "prepublishOnly": "npm run build && npm run screenshot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://git.zuoyebang.cc/ued/code-block-ui/blob/dev/src/blocks/funnel-filter/components/main.vue"
+  },
+  "homepage": "https://ued.suanshuabang.com/block#funnel-filter",
+  "axeConfig": {
+    "name": "funnel-filter",
+    "category": "Form",
+    "displayName": "漏斗过滤筛选"
+  }
+}

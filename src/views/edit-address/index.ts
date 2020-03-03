@@ -1,6 +1,6 @@
 
 export default {
-  path: '/basic-form',
-  name: 'basic-form',
+  path: '/edit-address',
+  name: 'edit-address',
   component: () => import('./index.vue')
 }

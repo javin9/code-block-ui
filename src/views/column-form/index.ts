@@ -1,6 +1,6 @@
 
 export default {
-  path: '/basic-form',
-  name: 'basic-form',
+  path: '/column-form',
+  name: 'column-form',
   component: () => import('./index.vue')
 }

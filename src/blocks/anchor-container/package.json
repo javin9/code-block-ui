@@ -1,0 +1,24 @@
+{
+  "name": "@axe/anchor-container",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "../../../node_modules/.bin/cross-env VUE_CLI_SERVICE_CONFIG_PATH=$PWD/../../../vue.config.js VUE_CLI_CONTEXT=$PWD/../../../  ../../../node_modules/.bin/vue-cli-service build --target lib  --name anchorcontainer  --dest lib ./src/blocks/anchor-container/index.ts",
+    "screenshot": "../../node_modules/.bin/screenshot -l -s '#mountNode'",
+    "prepublishOnly": "npm run build && npm run screenshot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://git.zuoyebang.cc/ued/code-block-ui/blob/dev/src/blocks/anchor-container/components/main.vue"
+  },
+  "homepage": "https://ued.suanshuabang.com/block#anchor-container",
+  "axeConfig": {
+    "name": "anchor-container",
+    "category": "Form",
+    "displayName": "锚点定位容器"
+  }
+}

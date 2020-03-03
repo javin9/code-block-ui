@@ -2,6 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import ZybPcUi from 'zyb-pc-ui'
+import 'zyb-pc-ui/lib/theme-chalk/index.css'
+
+Vue.use(ZybPcUi)
 
 Vue.config.productionTip = false
 

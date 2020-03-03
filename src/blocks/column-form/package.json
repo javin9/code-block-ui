@@ -1,10 +1,10 @@
 {
-  "name": "@axe/basic-form",
+  "name": "@axe/column-form",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "../../../node_modules/.bin/cross-env VUE_CLI_SERVICE_CONFIG_PATH=$PWD/../../../vue.config.js VUE_CLI_CONTEXT=$PWD/../../../  ../../../node_modules/.bin/vue-cli-service build --target lib  --name basicform  --dest lib ./src/blocks/basic-form/index.ts",
+    "build": "../../../node_modules/.bin/cross-env VUE_CLI_SERVICE_CONFIG_PATH=$PWD/../../../vue.config.js VUE_CLI_CONTEXT=$PWD/../../../  ../../../node_modules/.bin/vue-cli-service build --target lib  --name columnform  --dest lib ./src/blocks/column-form/index.ts",
     "screenshot": "../../node_modules/.bin/screenshot -l -s '#mountNode'",
     "prepublishOnly": "npm run build && npm run screenshot"
   },
@@ -15,9 +15,9 @@
     "type": "git",
     "url": "https://github.com/ice-lab/react-materials/tree/master/blocks/AblityItems"
   },
-  "homepage": "https://ued.suanshuabang.com/block#basic-form",
+  "homepage": "https://ued.suanshuabang.com/block#column-form",
   "axeConfig": {
-    "name": "basic-form",
+    "name": "column-form",
     "category": "表单类",
     "displayName": "GeneralForm通用性表单"
   }

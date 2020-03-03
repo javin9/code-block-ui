@@ -1,6 +1,6 @@
 
 export default {
-  path: '/basic-form',
-  name: 'basic-form',
+  path: '/typesetting',
+  name: 'typesetting',
   component: () => import('./index.vue')
 }

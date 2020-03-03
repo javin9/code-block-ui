@@ -1,6 +1,6 @@
 
 export default {
-  path: '/basic-form',
-  name: 'basic-form',
+  path: '/anchor-container',
+  name: 'anchor-container',
   component: () => import('./index.vue')
 }
